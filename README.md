@@ -4,14 +4,14 @@
 
 ## 图片预览
 
-![IMG_0463](/Users/likailin/Downloads/IMG_0463.PNG)
+![IMG_0463](http://github.com/KailinLi/WeTalk/raw/master/Screenshot/IMG_0463.PNG)
 
 ![IMG_0474](/Users/likailin/Downloads/IMG_0474.PNG)
 
-![IMG_0476](/Users/likailin/Downloads/IMG_0476.PNG)
+![IMG_0476](http://github.com/KailinLi/WeTalk/raw/master/Screenshot/IMG_0476.PNG)
 
-![IMG_0471](/Users/likailin/Downloads/IMG_0471.PNG)
+![IMG_0471](http://github.com/KailinLi/WeTalk/raw/master/Screenshot/IMG_0471.PNG)
 
-![IMG_0453](/Users/likailin/Downloads/IMG_0453.PNG)
+![IMG_0453](http://github.com/KailinLi/WeTalk/raw/master/Screenshot/IMG_0453.PNG)
 
-![IMG_0472](/Users/likailin/Downloads/IMG_0472.PNG)
+![IMG_0472](http://github.com/KailinLi/WeTalk/raw/master/Screenshot/IMG_0472.PNG)
