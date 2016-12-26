@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "ManageViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,9 +18,29 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.backgroundColor = [UIColor whiteColor];
+    ManageViewController *rootViewCtrl = [[ManageViewController alloc] initWithNibName:nil bundle:nil];
+    UINavigationController *navigationCtrl = [[UINavigationController alloc] initWithRootViewController:rootViewCtrl];
+    self.window.rootViewController = navigationCtrl;
+    [self.window makeKeyAndVisible];
+    
+    UIApplicationShortcutIcon *icon1 = [UIApplicationShortcutIcon iconWithTemplateImageName:@"add"];
+    UIApplicationShortcutItem *item1 = [[UIApplicationShortcutItem alloc] initWithType:@"item1" localizedTitle:@"小小Q" localizedSubtitle:@"新建聊天" icon:icon1 userInfo:nil];
+    
+    UIApplicationShortcutIcon *icon2 = [UIApplicationShortcutIcon iconWithTemplateImageName:@"log"];
+    UIApplicationShortcutItem *item2 = [[UIApplicationShortcutItem alloc] initWithType:@"item2" localizedTitle:@"小小Q" localizedSubtitle:@"聊天记录" icon:icon2 userInfo:nil];
+
+    application.shortcutItems = @[item1,item2];
+    
+    
+    
     return YES;
 }
 
+- (UIInterfaceOrientationMask)application:(UIApplication *)application supportedInterfaceOrientationsForWindow:(UIWindow *)window{
+    return UIInterfaceOrientationMaskPortrait;
+}
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
@@ -48,6 +69,8 @@
     // Saves changes in the application's managed object context before the application terminates.
     [self saveContext];
 }
+
+
 
 
 #pragma mark - Core Data stack

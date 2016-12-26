@@ -7,27 +7,63 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6E576BA92B1BD9D1625E75A9 /* libPods-WeTalk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A234B9C9C1C23A143E8594FC /* libPods-WeTalk.a */; };
+		DE0E02E41DF2F1E5006CE9AC /* ChatData.m in Sources */ = {isa = PBXBuildFile; fileRef = DE0E02E31DF2F1E5006CE9AC /* ChatData.m */; };
+		DE0E02E71DF2F3DC006CE9AC /* ChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE0E02E61DF2F3DC006CE9AC /* ChatViewController.m */; };
+		DE0E02EA1DF2F40C006CE9AC /* TextTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DE0E02E91DF2F40C006CE9AC /* TextTableViewCell.m */; };
+		DE0E02ED1DF309F8006CE9AC /* InputBar.m in Sources */ = {isa = PBXBuildFile; fileRef = DE0E02EC1DF309F8006CE9AC /* InputBar.m */; };
+		DE2533CA1DFD276000660EE7 /* ManageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE2533C91DFD276000660EE7 /* ManageViewController.m */; };
+		DE2533CD1DFD28DB00660EE7 /* ChatTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DE2533CC1DFD28DB00660EE7 /* ChatTableViewCell.m */; };
+		DE2533D01DFD2C4D00660EE7 /* previewData.m in Sources */ = {isa = PBXBuildFile; fileRef = DE2533CF1DFD2C4D00660EE7 /* previewData.m */; };
+		DEAAFAAB1E02EB2F00FCC71B /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DEAAFAAA1E02EB2F00FCC71B /* libsqlite3.0.tbd */; };
+		DEBEE0161E0783D800F58BC8 /* UINavigationBar+Transparent.m in Sources */ = {isa = PBXBuildFile; fileRef = DEBEE0151E0783D800F58BC8 /* UINavigationBar+Transparent.m */; };
+		DEBEE0191E0783F000F58BC8 /* TransparentView.m in Sources */ = {isa = PBXBuildFile; fileRef = DEBEE0181E0783F000F58BC8 /* TransparentView.m */; };
+		DEBEE01C1E07840300F58BC8 /* UIView+Size.m in Sources */ = {isa = PBXBuildFile; fileRef = DEBEE01B1E07840300F58BC8 /* UIView+Size.m */; };
 		DED40E3E1DF02E4F003D1408 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DED40E3D1DF02E4F003D1408 /* main.m */; };
 		DED40E411DF02E4F003D1408 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DED40E401DF02E4F003D1408 /* AppDelegate.m */; };
-		DED40E441DF02E4F003D1408 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DED40E431DF02E4F003D1408 /* ViewController.m */; };
-		DED40E471DF02E4F003D1408 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DED40E451DF02E4F003D1408 /* Main.storyboard */; };
 		DED40E4A1DF02E4F003D1408 /* WeTalk.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DED40E481DF02E4F003D1408 /* WeTalk.xcdatamodeld */; };
 		DED40E4C1DF02E4F003D1408 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DED40E4B1DF02E4F003D1408 /* Assets.xcassets */; };
-		DED40E4F1DF02E4F003D1408 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DED40E4D1DF02E4F003D1408 /* LaunchScreen.storyboard */; };
+		DED40E571DF02EA9003D1408 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DED40E561DF02EA9003D1408 /* Launch Screen.storyboard */; };
+		DEF8B6A71DF4100E00CAF615 /* ImageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF8B6A61DF4100E00CAF615 /* ImageTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0972E630EA5D67F2E89BE28D /* Pods-WeTalk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeTalk.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WeTalk/Pods-WeTalk.debug.xcconfig"; sourceTree = "<group>"; };
+		919173A0BB9522744F1EB59D /* Pods-WeTalk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeTalk.release.xcconfig"; path = "Pods/Target Support Files/Pods-WeTalk/Pods-WeTalk.release.xcconfig"; sourceTree = "<group>"; };
+		A234B9C9C1C23A143E8594FC /* libPods-WeTalk.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WeTalk.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE0E02E21DF2F1E5006CE9AC /* ChatData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatData.h; sourceTree = "<group>"; };
+		DE0E02E31DF2F1E5006CE9AC /* ChatData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatData.m; sourceTree = "<group>"; };
+		DE0E02E51DF2F3DC006CE9AC /* ChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatViewController.h; sourceTree = "<group>"; };
+		DE0E02E61DF2F3DC006CE9AC /* ChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatViewController.m; sourceTree = "<group>"; };
+		DE0E02E81DF2F40C006CE9AC /* TextTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextTableViewCell.h; sourceTree = "<group>"; };
+		DE0E02E91DF2F40C006CE9AC /* TextTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextTableViewCell.m; sourceTree = "<group>"; };
+		DE0E02EB1DF309F8006CE9AC /* InputBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputBar.h; sourceTree = "<group>"; };
+		DE0E02EC1DF309F8006CE9AC /* InputBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InputBar.m; sourceTree = "<group>"; };
+		DE0E02EE1DF329D7006CE9AC /* InputBarDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InputBarDelegate.h; sourceTree = "<group>"; };
+		DE2533C81DFD276000660EE7 /* ManageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ManageViewController.h; sourceTree = "<group>"; };
+		DE2533C91DFD276000660EE7 /* ManageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ManageViewController.m; sourceTree = "<group>"; };
+		DE2533CB1DFD28DB00660EE7 /* ChatTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatTableViewCell.h; sourceTree = "<group>"; };
+		DE2533CC1DFD28DB00660EE7 /* ChatTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatTableViewCell.m; sourceTree = "<group>"; };
+		DE2533CE1DFD2C4D00660EE7 /* previewData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = previewData.h; sourceTree = "<group>"; };
+		DE2533CF1DFD2C4D00660EE7 /* previewData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = previewData.m; sourceTree = "<group>"; };
+		DE2533D11DFD36E600660EE7 /* ChatViewDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChatViewDelegate.h; sourceTree = "<group>"; };
+		DEAAFAAA1E02EB2F00FCC71B /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		DEBEE0141E0783B100F58BC8 /* UINavigationBar+Transparent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+Transparent.h"; sourceTree = "<group>"; };
+		DEBEE0151E0783D800F58BC8 /* UINavigationBar+Transparent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+Transparent.m"; sourceTree = "<group>"; };
+		DEBEE0171E0783E700F58BC8 /* TransparentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransparentView.h; sourceTree = "<group>"; };
+		DEBEE0181E0783F000F58BC8 /* TransparentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransparentView.m; sourceTree = "<group>"; };
+		DEBEE01A1E0783FB00F58BC8 /* UIView+Size.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Size.h"; sourceTree = "<group>"; };
+		DEBEE01B1E07840300F58BC8 /* UIView+Size.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Size.m"; sourceTree = "<group>"; };
 		DED40E391DF02E4F003D1408 /* WeTalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeTalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DED40E3D1DF02E4F003D1408 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DED40E3F1DF02E4F003D1408 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DED40E401DF02E4F003D1408 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		DED40E421DF02E4F003D1408 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		DED40E431DF02E4F003D1408 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		DED40E461DF02E4F003D1408 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DED40E491DF02E4F003D1408 /* WeTalk.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WeTalk.xcdatamodel; sourceTree = "<group>"; };
 		DED40E4B1DF02E4F003D1408 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		DED40E4E1DF02E4F003D1408 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DED40E501DF02E4F003D1408 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DED40E561DF02EA9003D1408 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		DEF8B6A51DF4100E00CAF615 /* ImageTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageTableViewCell.h; sourceTree = "<group>"; };
+		DEF8B6A61DF4100E00CAF615 /* ImageTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,17 +71,134 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEAAFAAB1E02EB2F00FCC71B /* libsqlite3.0.tbd in Frameworks */,
+				6E576BA92B1BD9D1625E75A9 /* libPods-WeTalk.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		59235269FBD305882BBF9F36 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DEAAFAAA1E02EB2F00FCC71B /* libsqlite3.0.tbd */,
+				A234B9C9C1C23A143E8594FC /* libPods-WeTalk.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7997DCED81D0F922128FAD77 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0972E630EA5D67F2E89BE28D /* Pods-WeTalk.debug.xcconfig */,
+				919173A0BB9522744F1EB59D /* Pods-WeTalk.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DE0E02DC1DF2EDFB006CE9AC /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				DED40E3F1DF02E4F003D1408 /* AppDelegate.h */,
+				DED40E401DF02E4F003D1408 /* AppDelegate.m */,
+			);
+			name = Delegate;
+			sourceTree = "<group>";
+		};
+		DE0E02DD1DF2EE13006CE9AC /* Chatlog */ = {
+			isa = PBXGroup;
+			children = (
+				DE2533C71DFD270600660EE7 /* Model */,
+				DE2533C61DFD26FF00660EE7 /* View */,
+				DE2533C51DFD26EB00660EE7 /* Controller */,
+			);
+			name = Chatlog;
+			sourceTree = "<group>";
+		};
+		DE0E02DE1DF2EEB3006CE9AC /* ChatInterface */ = {
+			isa = PBXGroup;
+			children = (
+				DE0E02E11DF2EEFA006CE9AC /* Controller */,
+				DE0E02E01DF2EEF2006CE9AC /* View */,
+				DE0E02DF1DF2EED6006CE9AC /* Model */,
+			);
+			name = ChatInterface;
+			sourceTree = "<group>";
+		};
+		DE0E02DF1DF2EED6006CE9AC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DE0E02E21DF2F1E5006CE9AC /* ChatData.h */,
+				DE0E02E31DF2F1E5006CE9AC /* ChatData.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		DE0E02E01DF2EEF2006CE9AC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DE0E02E81DF2F40C006CE9AC /* TextTableViewCell.h */,
+				DE0E02E91DF2F40C006CE9AC /* TextTableViewCell.m */,
+				DE0E02EB1DF309F8006CE9AC /* InputBar.h */,
+				DE0E02EC1DF309F8006CE9AC /* InputBar.m */,
+				DE0E02EE1DF329D7006CE9AC /* InputBarDelegate.h */,
+				DEF8B6A51DF4100E00CAF615 /* ImageTableViewCell.h */,
+				DEF8B6A61DF4100E00CAF615 /* ImageTableViewCell.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		DE0E02E11DF2EEFA006CE9AC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DE0E02E51DF2F3DC006CE9AC /* ChatViewController.h */,
+				DE0E02E61DF2F3DC006CE9AC /* ChatViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		DE2533C51DFD26EB00660EE7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DE2533C81DFD276000660EE7 /* ManageViewController.h */,
+				DE2533C91DFD276000660EE7 /* ManageViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		DE2533C61DFD26FF00660EE7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DE2533CB1DFD28DB00660EE7 /* ChatTableViewCell.h */,
+				DE2533CC1DFD28DB00660EE7 /* ChatTableViewCell.m */,
+				DEBEE01A1E0783FB00F58BC8 /* UIView+Size.h */,
+				DEBEE01B1E07840300F58BC8 /* UIView+Size.m */,
+				DEBEE0171E0783E700F58BC8 /* TransparentView.h */,
+				DEBEE0181E0783F000F58BC8 /* TransparentView.m */,
+				DEBEE0141E0783B100F58BC8 /* UINavigationBar+Transparent.h */,
+				DEBEE0151E0783D800F58BC8 /* UINavigationBar+Transparent.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		DE2533C71DFD270600660EE7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DE2533CE1DFD2C4D00660EE7 /* previewData.h */,
+				DE2533CF1DFD2C4D00660EE7 /* previewData.m */,
+				DE2533D11DFD36E600660EE7 /* ChatViewDelegate.h */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		DED40E301DF02E4F003D1408 = {
 			isa = PBXGroup;
 			children = (
 				DED40E3B1DF02E4F003D1408 /* WeTalk */,
 				DED40E3A1DF02E4F003D1408 /* Products */,
+				7997DCED81D0F922128FAD77 /* Pods */,
+				59235269FBD305882BBF9F36 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,16 +213,13 @@
 		DED40E3B1DF02E4F003D1408 /* WeTalk */ = {
 			isa = PBXGroup;
 			children = (
-				DED40E3F1DF02E4F003D1408 /* AppDelegate.h */,
-				DED40E401DF02E4F003D1408 /* AppDelegate.m */,
-				DED40E421DF02E4F003D1408 /* ViewController.h */,
-				DED40E431DF02E4F003D1408 /* ViewController.m */,
-				DED40E451DF02E4F003D1408 /* Main.storyboard */,
+				DE0E02DD1DF2EE13006CE9AC /* Chatlog */,
+				DE0E02DE1DF2EEB3006CE9AC /* ChatInterface */,
+				DED40E3C1DF02E4F003D1408 /* Supporting Files */,
+				DE0E02DC1DF2EDFB006CE9AC /* Delegate */,
 				DED40E4B1DF02E4F003D1408 /* Assets.xcassets */,
-				DED40E4D1DF02E4F003D1408 /* LaunchScreen.storyboard */,
 				DED40E501DF02E4F003D1408 /* Info.plist */,
 				DED40E481DF02E4F003D1408 /* WeTalk.xcdatamodeld */,
-				DED40E3C1DF02E4F003D1408 /* Supporting Files */,
 			);
 			path = WeTalk;
 			sourceTree = "<group>";
@@ -77,6 +227,7 @@
 		DED40E3C1DF02E4F003D1408 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				DED40E561DF02EA9003D1408 /* Launch Screen.storyboard */,
 				DED40E3D1DF02E4F003D1408 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -89,9 +240,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DED40E531DF02E4F003D1408 /* Build configuration list for PBXNativeTarget "WeTalk" */;
 			buildPhases = (
+				E35A58834DB1FF83079BDD5C /* [CP] Check Pods Manifest.lock */,
 				DED40E351DF02E4F003D1408 /* Sources */,
 				DED40E361DF02E4F003D1408 /* Frameworks */,
 				DED40E371DF02E4F003D1408 /* Resources */,
+				AF512EAF55009908B940A277 /* [CP] Embed Pods Frameworks */,
+				32113A21E73E42DD1FB06422 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -141,46 +295,84 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DED40E4F1DF02E4F003D1408 /* LaunchScreen.storyboard in Resources */,
+				DED40E571DF02EA9003D1408 /* Launch Screen.storyboard in Resources */,
 				DED40E4C1DF02E4F003D1408 /* Assets.xcassets in Resources */,
-				DED40E471DF02E4F003D1408 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		32113A21E73E42DD1FB06422 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WeTalk/Pods-WeTalk-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF512EAF55009908B940A277 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WeTalk/Pods-WeTalk-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E35A58834DB1FF83079BDD5C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DED40E351DF02E4F003D1408 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DED40E441DF02E4F003D1408 /* ViewController.m in Sources */,
 				DED40E411DF02E4F003D1408 /* AppDelegate.m in Sources */,
 				DED40E3E1DF02E4F003D1408 /* main.m in Sources */,
+				DE0E02E71DF2F3DC006CE9AC /* ChatViewController.m in Sources */,
 				DED40E4A1DF02E4F003D1408 /* WeTalk.xcdatamodeld in Sources */,
+				DEBEE0191E0783F000F58BC8 /* TransparentView.m in Sources */,
+				DE2533D01DFD2C4D00660EE7 /* previewData.m in Sources */,
+				DE0E02EA1DF2F40C006CE9AC /* TextTableViewCell.m in Sources */,
+				DEBEE01C1E07840300F58BC8 /* UIView+Size.m in Sources */,
+				DEF8B6A71DF4100E00CAF615 /* ImageTableViewCell.m in Sources */,
+				DE2533CA1DFD276000660EE7 /* ManageViewController.m in Sources */,
+				DEBEE0161E0783D800F58BC8 /* UINavigationBar+Transparent.m in Sources */,
+				DE2533CD1DFD28DB00660EE7 /* ChatTableViewCell.m in Sources */,
+				DE0E02ED1DF309F8006CE9AC /* InputBar.m in Sources */,
+				DE0E02E41DF2F1E5006CE9AC /* ChatData.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		DED40E451DF02E4F003D1408 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DED40E461DF02E4F003D1408 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		DED40E4D1DF02E4F003D1408 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DED40E4E1DF02E4F003D1408 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		DED40E511DF02E4F003D1408 /* Debug */ = {
@@ -201,6 +393,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -223,7 +416,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -249,6 +442,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -265,7 +459,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -275,6 +469,7 @@
 		};
 		DED40E541DF02E4F003D1408 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0972E630EA5D67F2E89BE28D /* Pods-WeTalk.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4A6WKDWV93;
@@ -287,6 +482,7 @@
 		};
 		DED40E551DF02E4F003D1408 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 919173A0BB9522744F1EB59D /* Pods-WeTalk.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4A6WKDWV93;
@@ -316,6 +512,7 @@
 				DED40E551DF02E4F003D1408 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
