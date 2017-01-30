@@ -4,14 +4,17 @@
 
 ## 图片预览
 
-![Alt text](http://github.com/KailinLi/WeTalk/raw/master/Screenshot/IMG_0463.PNG?raw=true "Optional Title")
+![](http://oklhb00qa.bkt.clouddn.com/1.PNG)
 
-![Alt text](/Users/likailin/Downloads/IMG_0474.PNG?raw=true "Optional Title")
+![](http://oklhb00qa.bkt.clouddn.com/2.PNG)
 
-![Alt text](http://github.com/KailinLi/WeTalk/raw/master/Screenshot/IMG_0476.PNG?raw=true "Optional Title")
+![](http://oklhb00qa.bkt.clouddn.com/3.PNG)
 
-![Alt text](http://github.com/KailinLi/WeTalk/raw/master/Screenshot/IMG_0471.PNG?raw=true "Optional Title")
+![](http://oklhb00qa.bkt.clouddn.com/4.PNG)
 
-![Alt text](http://github.com/KailinLi/WeTalk/raw/master/Screenshot/IMG_0453.PNG?raw=true "Optional Title")
+![](http://oklhb00qa.bkt.clouddn.com/5.PNG)
 
-![Alt text](http://github.com/KailinLi/WeTalk/raw/master/Screenshot/IMG_0472.PNG?raw=true "Optional Title")
+![](http://oklhb00qa.bkt.clouddn.com/6.PNG)
+
+
+
