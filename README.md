@@ -4,17 +4,22 @@
 
 ## 图片预览
 
-![](http://oklhb00qa.bkt.clouddn.com/1.PNG)
+<figure class="half">
 
-![](http://oklhb00qa.bkt.clouddn.com/2.PNG)
+<center>
 
-![](http://oklhb00qa.bkt.clouddn.com/3.PNG)
+<img src="http://oklhb00qa.bkt.clouddn.com/1.PNG" width="50%" align=center />
 
-![](http://oklhb00qa.bkt.clouddn.com/4.PNG)
+<img src="http://oklhb00qa.bkt.clouddn.com/2.PNG" width="50%" align=center />
 
-![](http://oklhb00qa.bkt.clouddn.com/5.PNG)
+<img src="http://oklhb00qa.bkt.clouddn.com/3.PNG" width="50%" align=center />
 
-![](http://oklhb00qa.bkt.clouddn.com/6.PNG)
+<img src="http://oklhb00qa.bkt.clouddn.com/4.PNG" width="50%" align=center />
 
+<img src="http://oklhb00qa.bkt.clouddn.com/5.PNG" width="50%" align=center />
 
+<img src="http://oklhb00qa.bkt.clouddn.com/6.PNG" width="50%" align=center />
 
+</center>
+
+</figure>
