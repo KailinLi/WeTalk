@@ -475,7 +475,7 @@
 				DEVELOPMENT_TEAM = 4A6WKDWV93;
 				INFOPLIST_FILE = WeTalk/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.SiZhe.WeTalk;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Codedo.WeTalk;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -488,7 +488,7 @@
 				DEVELOPMENT_TEAM = 4A6WKDWV93;
 				INFOPLIST_FILE = WeTalk/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.SiZhe.WeTalk;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Codedo.WeTalk;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
