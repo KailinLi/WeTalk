@@ -1,8 +1,10 @@
-# 小小Q
+# WeTalk
 
-基于Objective-C纯代码的实时聊天应用，使用[图灵机器人API接口](www.google.cm)并支持图片搜索等多种模式的对话沟通。支持本地推送 3D-Touch等等功能。
+An instant messaging software based on Objective-C, using [Turing Robot's API](http://www.tuling123.com). Use this app to on your iPhone to talk with a smart robot !
 
-## 图片预览
+This app supports rich text format, including pictures and chat bubbles. Local notifications and 3D-Touch are also supported.
+
+## Preview
 
 <figure class="half">
 
